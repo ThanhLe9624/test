@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			.tabcol {
+				background-color: lightblue;
+                margin-left: auto;
+                margin-right: auto;
+			}
+			.contact {
+				font-size: 50px;
+				font-weight: bold;
+                padding-left: 50px;
+                padding-right: 50px;
+			}
+            .text {
+                padding-left: 130px;    
+            }
+            .boxright {
+                padding-left: 130px;
+            }
+		</style>
+	</head>
+	<body>
+		<table class="tabcol">
+			<tr>
+				<td class="contact" colspan="2">CONTACT US</td>
+			</tr>
+			<form >
+				<tr>
+					<td colspan="2" class="text">
+						<input type="text" placeholder="First name*" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="text">
+						<input type="text" placeholder="Last name*" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="text">
+						<input type="email" placeholder="Email*" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="text">
+						<input type="text" placeholder="Phone*" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="text">
+						<textarea
+							cols="19"
+							rows="2"
+							placeholder="tell us something*"
+						></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td class="boxright"><input type="radio" name="gender" />Personal
+                        <input type="radio" name="gender" />Company</td>
+
+				</tr>
+				<tr>
+					<td class="boxright"><input type="submit" value="Send message" />
+                        <input type="reset" value="Reset" /></td>
+				</tr>
+			</form>
+		</table>
+	</body>
+</html>
